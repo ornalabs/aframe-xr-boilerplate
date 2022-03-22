@@ -9,7 +9,7 @@
     <!-- create your content here. just a box for now -->
     <a-text value="Hello, I am Roncho"></a-text>
     <a-assets>
-        <a-asset-item id="roncho" crossOrigin="anonymous" src="https://storage.cloud.google.com/webxr_assets/IntroLevel/roncho-v1%20(1).glb?authuser=1"></a-asset-item>
+        <a-asset-item id="roncho" crossOrigin="anonymous" response-type="arraybuffer" src="https://storage.cloud.google.com/webxr_assets/IntroLevel/roncho-v1%20(1).glb?authuser=1"></a-asset-item>
       </a-assets>
       <!-- use your gltf model -->
       <a-entity scale="3 3 3" animation-mixer="clip: CHILL" rotation="1 1 1" gltf-model="#roncho" position='0 0.5 -10'></a-entity>
